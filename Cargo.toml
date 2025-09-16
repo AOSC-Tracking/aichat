@@ -96,3 +96,6 @@ rand = "0.9.0"
 lto = true
 strip = true
 opt-level = "z"
+
+[patch.crates-io]
+mmap-rs = { git = "https://github.com/StephanvanSchaik/mmap-rs.git", rev = "4b142261e0c9478a8bbb31b096936ee96635c1c4" }
